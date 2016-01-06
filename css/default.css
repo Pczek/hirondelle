@@ -9,8 +9,6 @@ body {
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
-
-
 	text-rendering: optimizeLegibility;
 }
 
@@ -21,14 +19,9 @@ main {
 	flex: 1 0 auto;
 }
 
-
-#sold {
-  opacity: 0;
-}
-
-#first {
-	min-height: 100vh;
-}
-p{
-  text-align: justify;
+.horizontal {
+	max-height: 90vh;
+	display: block;
+margin-left: auto;
+margin-right: auto;
 }
